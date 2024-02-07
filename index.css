@@ -8,14 +8,12 @@
   transition: all 0.5 ease-in-out;
 }
 main {
-
   /* border: 2px solid black; */
   display: flex;
   flex-wrap: wrap;
   /* background-color: black; */
   color: white;
   position: relative;
-  
 }
 
 .left {
@@ -30,26 +28,22 @@ main {
   bottom: 0px;
 }
 
-.left ul li a{
-
-    text-decoration: none;
-    color: white;
-    transition: all 1s ease-in-out;
+.left ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-in-out;
 }
 
 .right {
-  
   width: 80%;
   position: absolute;
   background-color: black;
-  right:0px;
+  right: 0px;
   top: 0px;
-
 }
 
 .left ul {
   width: 70%;
- 
 }
 .left ul li {
   list-style: none;
@@ -62,12 +56,11 @@ main {
   margin: 0px 3px;
 }
 
-.left ul li:nth-child(2){
-
-     color: yellow;
+.left ul li:nth-child(2) {
+  color: yellow;
 }
 
-.home{
+.home {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -77,50 +70,43 @@ main {
   transition: all 1s ease-in-out;
 }
 
-.home-left h1,h4,h6{
-
-    line-height: 80px;
+.home-left h1,
+h4,
+h6 {
+  line-height: 80px;
 }
 
-.home-left h1{
-
+.home-left h1 {
   font-size: 45px;
 }
 
-.home-left h4{
-
+.home-left h4 {
   font-size: 35px;
 }
 
-.home-left h6{
-
+.home-left h6 {
   font-size: 20px;
   color: rgb(63, 62, 62);
 }
 
-.home-left button{
-
+.home-left button {
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
   background-color: yellow;
   font-weight: bold;
-
 }
 
-.home-right{
-
+.home-right {
   border: 2px solid yellow;
   height: 350px;
   width: 350px;
   border-radius: 200px;
   background-color: yellow;
   position: relative;
-  
 }
 
-.home-right img{
-
+.home-right img {
   width: 90%;
   height: auto;
   position: absolute;
@@ -128,83 +114,64 @@ main {
   bottom: -20px;
 }
 
-.about{
-
+.about {
   width: 80%;
   margin: auto;
   position: relative;
   transition: all 1s ease-in-out;
-
 }
 
-.inner-about{
-
+.inner-about {
   /* border: 2px solid white; */
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
-  .inner-about-box{
-    
-    /* border: 2px solid yellow; */
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 8px;
-    margin: 5px 5px;
-    background-color: rgb(23, 23, 23);
-    flex-grow: 3;
+.inner-about-box {
+  /* border: 2px solid yellow; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin: 5px 5px;
+  background-color: rgb(23, 23, 23);
+  flex-grow: 3;
+}
 
-    
-    
-  }
-
-.inner-about-box:nth-child(1){
-  
+.inner-about-box:nth-child(1) {
   width: 350px;
-
- 
 }
 
-.inner-about-box:nth-child(2){
-   
+.inner-about-box:nth-child(2) {
   width: 250px;
- 
 }
 
-.inner-about-box:nth-child(3){
-   
+.inner-about-box:nth-child(3) {
   width: 250px;
-
-  
 }
 
-.about h1{
-
+.about h1 {
   position: relative;
-
 }
 
-.about h1::after{
-
-   content: "";
-   border: 2px solid yellow;
-   position: absolute;
-   width: 10%;
-   bottom: 0px;
-   left: 5px;
+.about h1::after {
+  content: "";
+  border: 2px solid yellow;
+  position: absolute;
+  width: 10%;
+  bottom: 0px;
+  left: 5px;
 }
 
-.about h1,p,.inner-about{
+.about h1,
+p,
+.inner-about {
+  margin: 35px 0px;
+}
 
-   margin: 35px 0px;
-} 
-
-.inner-about-box h2{
-
+.inner-about-box h2 {
   border-bottom: 2px solid yellow;
   border-radius: 5px;
   text-shadow: 0px 0px 2px yellow;
@@ -212,47 +179,39 @@ main {
 }
 
 .about p {
-
   line-height: 28px;
 }
 
-.inner-about-box ul li{
-
-   margin: 10px 0px;
-   word-spacing: 4px;
-   list-style: none;
-
+.inner-about-box ul li {
+  margin: 10px 0px;
+  word-spacing: 4px;
+  list-style: none;
 }
 
-.inner-about-box i{
-   
-   color: yellow;
-   font-size: 20px;
+.inner-about-box i {
+  color: yellow;
+  font-size: 20px;
 }
 
-.qualification{
-      
-    width: 80%;
-    margin: auto;
-    margin-top: 200px;
-    position: relative;
-    transition: all 1s ease-in-out;
-}   
-
-.qualification h1{
-
-    margin: 50px 0px;
+.qualification {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+  position: relative;
+  transition: all 1s ease-in-out;
 }
 
-.education-experience{
-
-     display: flex;
-     flex-wrap: wrap;
-    justify-content: space-between;
+.qualification h1 {
+  margin: 50px 0px;
 }
 
-.education{
+.education-experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.education {
   background-color: rgb(23, 23, 23);
   width: 450px;
   padding: 0px 50px;
@@ -261,169 +220,316 @@ main {
   flex-grow: 2;
 }
 
-.experience{
-
+.experience {
   background-color: rgb(23, 23, 23);
   width: 450px;
   padding: 0px 50px;
   position: relative;
   margin: 5px;
   flex-shrink: 2;
- 
+}
 
+.education-box .year,
+h3 {
+  line-height: 5px;
+}
+
+.education-box p {
+  text-align: justify;
+}
+
+.education-box::before {
+  content: "";
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  border-right: 2px solid yellow;
+  height: 120px;
+}
+
+.education-box:nth-child(2)::before {
+  top: 285px;
+  left: 30px;
+}
+
+.education-box:nth-child(3)::before {
+  top: 450px;
+  left: 30px;
+}
+
+.education h2 {
+  margin: 30px 0px;
+  letter-spacing: 3px;
+  color: yellow;
+}
+
+.qualification h1::before {
+  content: "";
+  position: absolute;
+  background-color: yellow;
+  width: 180px;
+  height: 2px;
+  top: 55px;
+  left: 5px;
+}
+
+.fa-graduation-cap {
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+  color: yellow;
+}
+
+.fa-briefcase {
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+  color: yellow;
+}
+
+.cap1 {
+  top: 95px;
+}
+
+.cap2 {
+  top: 260px;
+}
+
+.cap3 {
+  top: 420px;
+}
+
+.skills {
+  margin: auto;
+  width: 80%;
+  margin-top: 200px;
+}
+
+.skills h1 {
+  margin: 0px 0px;
+  letter-spacing: 4px;
+  border-bottom: 2px solid yellow;
+  width: 10%;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: rgb(23, 23, 23); */
+  padding: 60px 0px;
+}
+
+.inner-skills-box {
+  background-color: rgb(23, 23, 23);
+  width: 95%;
+  height: 20px;
+  border-radius: 200px;
+  margin: 0px 0px;
+}
+
+.html,
+.css,
+.js,
+.django,
+.react,
+.python,
+.javascript {
+  background: yellow;
+  width: 70%;
+  height: 100%;
+  border-radius: 200px;
+  color: rgb(23, 23, 23);
+  text-align: center;
+  font-weight: bold;
+}
+
+.css {
+  width: 50%;
+}
+
+.js {
+  width: 90%;
+}
+
+.django {
+  width: 60%;
+}
+
+.react {
+  width: 30%;
+}
+
+.skill-title {
+  width: 50%;
+}
+
+.javascript {
+  width: 90%;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-us h1 {
+  border-bottom: 2px solid yellow;
+  width: 20%;
+  padding: 10px 0px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.contact ul li {
+  list-style: none;
+  margin: 20px 0px;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.contact-box {
+  /* border: 2px solid yellow; */
+  width: 50%;
+}
+
+#contact-box-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+}
+
+#contact-box-2 input {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(23, 23, 23);
+  border: none;
+}
+
+#contact-box-2 textarea {
+  background-color: rgb(23, 23, 23);
+  border: none;
+}
+
+#contact-box-2 input[type="submit"] {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.contact i {
+  color: yellow;
+  margin: 0px 8px;
 }
 
 
-.education-box .year , h3{
+@media (max-width: 976px) {
+  .left {
+    display: none;
+  }
 
-    line-height: 5px;
-    
+  .right {
+    width: 100%;
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .inner-about-box:nth-child(1) {
+    flex-grow: 3;
+  }
+
+  .inner-about-box:nth-child(2) {
+    flex-grow: 1;
+    margin: 5px;
+  }
+
+  .inner-about-box:nth-child(3) {
+    flex-grow: 1;
+  }
+
+  .cap2 {
+    top: 280px;
+  }
+
+  .cap3 {
+    top: 470px;
+  }
+
+  .education-box:nth-child(2)::before {
+    top: 310px;
+    left: 30px;
+  }
+
+  .education-box:nth-child(3)::before {
+    top: 500px;
+    left: 30px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-box {
+    width: 100%;
+  }
+
+  .contact-us h1 {
+    width: 60%;
+  }
+
+  .skills-box {
+    flex-direction: column;
+  }
+
+  .skill-title {
+    width: 100%;
+  }
 }
 
-.education-box p{
 
-    text-align: justify;
- 
-}
+@media (max-width: 407px) {
+  .cap1 {
+    top: 95px;
+  }
 
-.education-box::before{
-     
+  .cap2 {
+    top: 310px;
+  }
+
+  .cap3 {
+    top: 522px;
+  }
+
+  .education-box::before {
     content: "";
     position: absolute;
     top: 130px;
     left: 30px;
     border-right: 2px solid yellow;
     height: 120px;
-}
-
-
-.education-box:nth-child(2)::before{
-
-    top: 285px;
-    left: 30px;
-
-}
-
-.education-box:nth-child(3)::before{
-
-    top: 450px;
-    left: 30px;
-
-}
-
-.education h2{
-
-    margin: 30px 0px;
-    letter-spacing: 3px;
-    color: yellow;
-}
-
-.qualification h1::before{
-
-    content: "";
-    position: absolute;
-    background-color: yellow;
-    width: 180px;
-    height: 2px;
-    top: 55px;
-    left: 5px;
-}
-
-.fa-graduation-cap{
-
-    position: absolute;
-    left: 20px;
-    font-size: 18px;
-    color: yellow;
-}
-
-.fa-briefcase{
-    position: absolute;
-    left: 20px;
-    font-size: 18px;
-    color: yellow;
-}
-
-.cap1{
-
-    top: 95px;
-}
-
-.cap2{
-
-    top: 260px;
-}
-
-.cap3{
-
-    top: 420px;
-}
-
-
-
-
-
-@media (max-width:976px){
-
-  .left{
-
-      display: none;
   }
-
-  .right{
-
-      width: 100%;
-     
-  }
-
-   .home{
-
-    text-align: center;
-   }
-
-  .inner-about-box:nth-child(1){
-
-     flex-grow: 3;
-   
-  }
-
-  .inner-about-box:nth-child(2){
-
-    flex-grow: 1;
-    margin: 5px;
-   
- }
-
- .inner-about-box:nth-child(3){
-
-    flex-grow: 1;
   
- }
-
- .cap2{
-
-    top: 280px;
- }
-
- .cap3{
-
-    top: 470px;
- }
-
- .education-box:nth-child(2)::before{
-
-    top: 310px;
+  .education-box:nth-child(2)::before {
+    top: 350px;
     left: 30px;
-
-}
-
-.education-box:nth-child(3)::before{
-
-    top: 500px;
+  }
+  
+  .education-box:nth-child(3)::before {
+    top: 560px;
     left: 30px;
-
+  }
+  
 }
 
-
-
-}
